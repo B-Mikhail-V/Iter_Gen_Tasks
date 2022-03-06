@@ -13,5 +13,7 @@ def print_elements(list_input):
 if __name__ == '__main__':
 	elements_list = [elements for elements in print_elements(nested_list)]
 	print(elements_list)
+
+	# вариант с распаковкой
 	print(*print_elements(nested_list))
 

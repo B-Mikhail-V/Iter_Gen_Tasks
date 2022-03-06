@@ -29,5 +29,6 @@ def print_elements(list_input):
 
 if __name__ == '__main__':
     print_elements(nested_list)
+
     list_elements = [element for items in FlatIterator(nested_list) for element in FlatIterator(items)]
     print(list_elements)
